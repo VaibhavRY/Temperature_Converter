@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <header>
+        <P>VAIBHAV</P>
+    </header>
+</head>
+
+<body>
+    <div class="vaibhav">
+        <h1>Temperature Converter</h1>
+        <form onsubmit="convertTemperature(event)">
+            <label for="celsiusInput">Temperature in Celsius</label><br> 
+            <input type="number" id="celsiusInput" placeholder="Temperature in Celsius" required><br>
+            <span class="arrow">&#8645;</span>
+            <label for="fahrenheitInput">Temperature in Fahrenheit</label><br>
+            <output type="number" id="fahrenheitInput" placeholder="Temperature in Fahrenheit" required><br>
+            <input type="submit" value="Convert"><br>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

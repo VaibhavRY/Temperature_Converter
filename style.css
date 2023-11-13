@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    margin: 0;
+    color: red;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.vaibhav {
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.arrow {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .vaibhav {
+        width: 70%;
+    }
+}
